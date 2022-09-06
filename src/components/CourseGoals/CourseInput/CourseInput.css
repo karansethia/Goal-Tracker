@@ -19,6 +19,6 @@
 
 .form-control input:focus {
   outline: none;
-  background: #fad0ec;
-  border-color: #c84b9e46;
+  background: #d7d6d6;
+  border-color: #00000046;
 }
