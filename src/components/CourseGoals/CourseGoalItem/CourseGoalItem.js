@@ -4,7 +4,7 @@ import './CourseGoalItem.css';
 
 const CourseGoalItem = props => {
   // const [deleteText, setDeleteText] = useState('');
-
+  // Add a variable that handles the number of goals completed
   const deleteHandler = () => {
     // setDeleteText('(Deleted!)');
     props.onDelete(props.id);
@@ -14,6 +14,7 @@ const CourseGoalItem = props => {
     <li className="goal-item" onClick={deleteHandler}>
       {props.children}
     </li>
+    
   );
 };
 
